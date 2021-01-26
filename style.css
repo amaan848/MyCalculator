@@ -1,0 +1,63 @@
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#calculator{
+    height: 758px;
+    width: 40vw;
+    background-color: rgb(210, 105, 30, 0.4);
+    z-index: 1;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+#history{
+    height: 50px;
+    padding: 10px;
+}
+
+#output{
+    height: 120px;
+    padding: 10px;
+}
+
+#history-value{
+    text-align: right;
+    color: 	rgb(128, 128, 128);
+}
+
+#output-value{
+    text-align: right;
+    color: white;
+    font-size: xx-large;
+}
+
+.number , .empty , .operator{
+    width: 20%;
+    height: 88px;
+    border-radius: 50%;
+    float: left;
+    margin: 14px 14px 7px 14px;
+    color: grey;
+    border-width: 0;
+    font-size: x-large;
+}
+
+button:nth-child(4) , button:nth-child(8) , button:nth-child(12) , button:nth-child(16), button:nth-child(20){
+    background-color: coral;
+    font-size: xx-large;
+    color: black;
+}
+
+.number , .operator{
+    cursor: pointer;
+}
+
+.number:active , .operator:active{
+    font-size: 18px;
+}
