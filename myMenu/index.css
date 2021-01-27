@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(195,176,145);
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.all{
+    flex-basis: 40%;
+    align-self: stretch;
+    background-color:  rgba(106, 90, 61 , 0.5);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    border: 5px solid rgba(106, 90, 61);
+    
+}
+.dish{
+    float: right;
+    color: white;
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid rgb(250, 253, 252);
+    font-size: larger;
+}
+#header{
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.521);
+    margin-top: -22px;
+}
+#hotel{
+    text-align: center;
+    color: #6d1a05;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: cursive;
+}
+#ourMenu{
+    text-align: center;
+    font-family: cursive ;
+    font-size: xx-large;
+    color: #6d1a05;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    border-style:none;
+    font-size: 12px;
+}
+button > a{
+   text-decoration: none;
+   color: #b88914;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a:active{
+    text-decoration: underline;
+}
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.activeLink {
+    border-bottom: 3px solid;
+    border-radius: 2px;
+}
