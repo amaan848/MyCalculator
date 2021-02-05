@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myLibrary || Home</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div id="header">
+        <p id="name">myLibrary</p>
+        <button id="but1"><a href="/addbook">Add a Book</a></button>
+    <form id="searchbar" action="/search" method="GET">
+        <input type="text" placeholder="Search by Title" name="q">
+        <input type="submit" value="Search">
+    </form>
+    </div>
+    <div id="intro">
+        <h1 id="introtext1">WELCOME TO myLibrary</h1>
+        <h2 id="introtext2">We have a ton load of books across six major genres!<br>100% FREE</h2>
+        <h2 id="introtext3">In Collaboration with <a href="https://manybooks.net/">www.manybooks.net</a></h2>
+    </div>
+    <pre class="text0">    Genres    </pre>
+    <div id="genres">
+        <a href="/genre/romance">
+        <div class="genre">
+        <img src="../static/romance.jpg" id="romanceimg">
+        <p class="text1">Romance</p>
+        </div>
+        </a>
+
+        <a href="/genre/fantasy">
+        <div class="genre">
+        <img src="../static/fantasy.jpg" id="fantasyimg">
+        <p class="text1">Fantasy</p>
+        </div>
+        </a>
+
+        <a href="/genre/children">
+        <div class="genre">
+        <img src="../static/children.jpg" id="childrenimg">
+        <p class="text1">Children's</p>
+        </div>
+        </a>
+
+        <a href="/genre/historical_fiction">
+        <div class="genre">
+        <img src="../static/hist_fic.jpg" id="hist_ficimg">
+        <p class="text1">Historical Fiction</p>
+        </div>
+        </a>
+
+        <a href="/genre/science_fiction">
+        <div class="genre">
+        <img src="../static/science_fic.jpg" id="science_ficimg">
+        <p class="text1">Science Fiction</p>
+        </div>
+        </a>
+
+        <a href="/genre/horror">
+        <div class="genre">
+        <img src="../static/horror.jpg" id="horrorimg">
+        <p class="text1">Horror</p>
+        </div>
+        </a>
+
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
